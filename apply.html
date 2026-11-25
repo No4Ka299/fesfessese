@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Вступить — MUSOR FAMILY</title><link rel="stylesheet" href="style.css"></head>
+<body data-page="apply"><main>
+<h1>ЗАЯВКА НА <span>ВСТУПЛЕНИЕ</span></h1>
+<p class="lead">Заполни анкету. Перед отправкой прочитай <a href="rules.html">правила</a>.</p>
+<form id="appForm" class="card" style="margin-top:24px;max-width:560px">
+<label>Игровой ник</label><input name="nick" required maxlength="40">
+<label>Статик (ID)</label><input name="static" required maxlength="12">
+<label>Возраст</label><input name="age" type="number" min="10" max="99" required>
+<label>Средний онлайн в день</label><input name="online" required maxlength="40" placeholder="например, 4–6 часов">
+<label>Опыт в семьях / организациях</label><textarea name="exp" required></textarea>
+<label>О себе</label><textarea name="about" required></textarea>
+<button class="btn" type="submit">Отправить заявку</button><div id="appMsg"></div>
+</form></main><script src="config.js"></script><script src="app.js"></script></body></html>
